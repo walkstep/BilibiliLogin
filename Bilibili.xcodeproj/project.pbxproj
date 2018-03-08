@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043C93232050DD9400520D7F /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C93222050DD9400520D7F /* LoginView.m */; };
+		0453549F204FCC2E00000F1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453549E204FCC2E00000F1D /* AppDelegate.m */; };
+		045354A5204FCC2E00000F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045354A3204FCC2E00000F1D /* Main.storyboard */; };
+		045354A7204FCC2E00000F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045354A6204FCC2E00000F1D /* Assets.xcassets */; };
+		045354AA204FCC2E00000F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045354A8204FCC2E00000F1D /* LaunchScreen.storyboard */; };
+		045354AD204FCC2E00000F1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045354AC204FCC2E00000F1D /* main.m */; };
+		045354B7204FCF9D00000F1D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045354B6204FCF9D00000F1D /* LoginViewController.m */; };
+		04A9D663204FEE4600F7E68F /* UIButton+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D656204FEE4600F7E68F /* UIButton+Setup.m */; };
+		04A9D664204FEE4600F7E68F /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D658204FEE4600F7E68F /* UIImage+Utils.m */; };
+		04A9D665204FEE4600F7E68F /* UIImageView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D65A204FEE4600F7E68F /* UIImageView+Setup.m */; };
+		04A9D666204FEE4600F7E68F /* UILabel+ChangeSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D65C204FEE4600F7E68F /* UILabel+ChangeSpace.m */; };
+		04A9D667204FEE4600F7E68F /* UILabel+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D65E204FEE4600F7E68F /* UILabel+Setup.m */; };
+		04A9D668204FEE4600F7E68F /* UITextField+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D660204FEE4600F7E68F /* UITextField+Setup.m */; };
+		04A9D669204FEE4600F7E68F /* UIView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9D662204FEE4600F7E68F /* UIView+Setup.m */; };
+		7F5E7FE1DCCC1A710A49A52C /* Pods_Bilibili.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014AEAC582EC9EBF950DE666 /* Pods_Bilibili.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014AEAC582EC9EBF950DE666 /* Pods_Bilibili.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bilibili.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043C93212050DD9400520D7F /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		043C93222050DD9400520D7F /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		0453549A204FCC2E00000F1D /* Bilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453549D204FCC2E00000F1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0453549E204FCC2E00000F1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045354A4204FCC2E00000F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045354A6204FCC2E00000F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045354A9204FCC2E00000F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045354AB204FCC2E00000F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045354AC204FCC2E00000F1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045354B5204FCF9D00000F1D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		045354B6204FCF9D00000F1D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		045354B9204FE3F400000F1D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04A9D655204FEE4600F7E68F /* UIButton+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setup.h"; sourceTree = "<group>"; };
+		04A9D656204FEE4600F7E68F /* UIButton+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setup.m"; sourceTree = "<group>"; };
+		04A9D657204FEE4600F7E68F /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		04A9D658204FEE4600F7E68F /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		04A9D659204FEE4600F7E68F /* UIImageView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Setup.h"; sourceTree = "<group>"; };
+		04A9D65A204FEE4600F7E68F /* UIImageView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Setup.m"; sourceTree = "<group>"; };
+		04A9D65B204FEE4600F7E68F /* UILabel+ChangeSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeSpace.h"; sourceTree = "<group>"; };
+		04A9D65C204FEE4600F7E68F /* UILabel+ChangeSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeSpace.m"; sourceTree = "<group>"; };
+		04A9D65D204FEE4600F7E68F /* UILabel+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Setup.h"; sourceTree = "<group>"; };
+		04A9D65E204FEE4600F7E68F /* UILabel+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Setup.m"; sourceTree = "<group>"; };
+		04A9D65F204FEE4600F7E68F /* UITextField+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Setup.h"; sourceTree = "<group>"; };
+		04A9D660204FEE4600F7E68F /* UITextField+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Setup.m"; sourceTree = "<group>"; };
+		04A9D661204FEE4600F7E68F /* UIView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Setup.h"; sourceTree = "<group>"; };
+		04A9D662204FEE4600F7E68F /* UIView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Setup.m"; sourceTree = "<group>"; };
+		04A9D66B204FEFF700F7E68F /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		722FEFA0EC4DFAD4C67BD679 /* Pods-Bilibili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bilibili.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili.debug.xcconfig"; sourceTree = "<group>"; };
+		EEEADB234827AB07CA8B4A76 /* Pods-Bilibili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bilibili.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04535497204FCC2E00000F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5E7FE1DCCC1A710A49A52C /* Pods_Bilibili.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04535491204FCC2E00000F1D = {
+			isa = PBXGroup;
+			children = (
+				0453549C204FCC2E00000F1D /* Bilibili */,
+				0453549B204FCC2E00000F1D /* Products */,
+				3451C8A68213B17C033E318F /* Pods */,
+				F8F646FECE252B4FF479433D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0453549B204FCC2E00000F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0453549A204FCC2E00000F1D /* Bilibili.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0453549C204FCC2E00000F1D /* Bilibili */ = {
+			isa = PBXGroup;
+			children = (
+				0453549D204FCC2E00000F1D /* AppDelegate.h */,
+				0453549E204FCC2E00000F1D /* AppDelegate.m */,
+				04A9D66A204FEFCC00F7E68F /* Macro */,
+				04A9D654204FEE4600F7E68F /* Categories */,
+				045354B4204FCF6B00000F1D /* Views */,
+				045354B3204FCF5900000F1D /* ViewControllers */,
+				045354A3204FCC2E00000F1D /* Main.storyboard */,
+				045354A6204FCC2E00000F1D /* Assets.xcassets */,
+				045354A8204FCC2E00000F1D /* LaunchScreen.storyboard */,
+				045354AB204FCC2E00000F1D /* Info.plist */,
+				045354AC204FCC2E00000F1D /* main.m */,
+				045354B9204FE3F400000F1D /* PrefixHeader.pch */,
+			);
+			path = Bilibili;
+			sourceTree = "<group>";
+		};
+		045354B3204FCF5900000F1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				045354B5204FCF9D00000F1D /* LoginViewController.h */,
+				045354B6204FCF9D00000F1D /* LoginViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		045354B4204FCF6B00000F1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043C93212050DD9400520D7F /* LoginView.h */,
+				043C93222050DD9400520D7F /* LoginView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A9D654204FEE4600F7E68F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				04A9D655204FEE4600F7E68F /* UIButton+Setup.h */,
+				04A9D656204FEE4600F7E68F /* UIButton+Setup.m */,
+				04A9D657204FEE4600F7E68F /* UIImage+Utils.h */,
+				04A9D658204FEE4600F7E68F /* UIImage+Utils.m */,
+				04A9D659204FEE4600F7E68F /* UIImageView+Setup.h */,
+				04A9D65A204FEE4600F7E68F /* UIImageView+Setup.m */,
+				04A9D65B204FEE4600F7E68F /* UILabel+ChangeSpace.h */,
+				04A9D65C204FEE4600F7E68F /* UILabel+ChangeSpace.m */,
+				04A9D65D204FEE4600F7E68F /* UILabel+Setup.h */,
+				04A9D65E204FEE4600F7E68F /* UILabel+Setup.m */,
+				04A9D65F204FEE4600F7E68F /* UITextField+Setup.h */,
+				04A9D660204FEE4600F7E68F /* UITextField+Setup.m */,
+				04A9D661204FEE4600F7E68F /* UIView+Setup.h */,
+				04A9D662204FEE4600F7E68F /* UIView+Setup.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		04A9D66A204FEFCC00F7E68F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				04A9D66B204FEFF700F7E68F /* AppMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		3451C8A68213B17C033E318F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				722FEFA0EC4DFAD4C67BD679 /* Pods-Bilibili.debug.xcconfig */,
+				EEEADB234827AB07CA8B4A76 /* Pods-Bilibili.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8F646FECE252B4FF479433D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014AEAC582EC9EBF950DE666 /* Pods_Bilibili.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04535499204FCC2E00000F1D /* Bilibili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045354B0204FCC2E00000F1D /* Build configuration list for PBXNativeTarget "Bilibili" */;
+			buildPhases = (
+				D6056887F5E92632B59E840A /* [CP] Check Pods Manifest.lock */,
+				04535496204FCC2E00000F1D /* Sources */,
+				04535497204FCC2E00000F1D /* Frameworks */,
+				04535498204FCC2E00000F1D /* Resources */,
+				EA84C9E5D79E8FF77E2197F7 /* [CP] Embed Pods Frameworks */,
+				260E45A5AD9FBA7D42E397F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bilibili;
+			productName = Bilibili;
+			productReference = 0453549A204FCC2E00000F1D /* Bilibili.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04535492204FCC2E00000F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jucheng;
+				TargetAttributes = {
+					04535499204FCC2E00000F1D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 04535495204FCC2E00000F1D /* Build configuration list for PBXProject "Bilibili" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04535491204FCC2E00000F1D;
+			productRefGroup = 0453549B204FCC2E00000F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04535499204FCC2E00000F1D /* Bilibili */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04535498204FCC2E00000F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045354AA204FCC2E00000F1D /* LaunchScreen.storyboard in Resources */,
+				045354A7204FCC2E00000F1D /* Assets.xcassets in Resources */,
+				045354A5204FCC2E00000F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260E45A5AD9FBA7D42E397F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6056887F5E92632B59E840A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bilibili-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA84C9E5D79E8FF77E2197F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bilibili/Pods-Bilibili-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04535496204FCC2E00000F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045354AD204FCC2E00000F1D /* main.m in Sources */,
+				04A9D663204FEE4600F7E68F /* UIButton+Setup.m in Sources */,
+				04A9D665204FEE4600F7E68F /* UIImageView+Setup.m in Sources */,
+				0453549F204FCC2E00000F1D /* AppDelegate.m in Sources */,
+				04A9D667204FEE4600F7E68F /* UILabel+Setup.m in Sources */,
+				043C93232050DD9400520D7F /* LoginView.m in Sources */,
+				04A9D666204FEE4600F7E68F /* UILabel+ChangeSpace.m in Sources */,
+				045354B7204FCF9D00000F1D /* LoginViewController.m in Sources */,
+				04A9D664204FEE4600F7E68F /* UIImage+Utils.m in Sources */,
+				04A9D669204FEE4600F7E68F /* UIView+Setup.m in Sources */,
+				04A9D668204FEE4600F7E68F /* UITextField+Setup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045354A3204FCC2E00000F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045354A4204FCC2E00000F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045354A8204FCC2E00000F1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045354A9204FCC2E00000F1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045354AE204FCC2E00000F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		045354AF204FCC2E00000F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045354B1204FCC2E00000F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722FEFA0EC4DFAD4C67BD679 /* Pods-Bilibili.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Bilibili/PrefixHeader.pch";
+				INFOPLIST_FILE = Bilibili/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucheng.Bilibili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045354B2204FCC2E00000F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEADB234827AB07CA8B4A76 /* Pods-Bilibili.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Bilibili/PrefixHeader.pch";
+				INFOPLIST_FILE = Bilibili/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucheng.Bilibili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04535495204FCC2E00000F1D /* Build configuration list for PBXProject "Bilibili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045354AE204FCC2E00000F1D /* Debug */,
+				045354AF204FCC2E00000F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045354B0204FCC2E00000F1D /* Build configuration list for PBXNativeTarget "Bilibili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045354B1204FCC2E00000F1D /* Debug */,
+				045354B2204FCC2E00000F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04535492204FCC2E00000F1D /* Project object */;
+}
